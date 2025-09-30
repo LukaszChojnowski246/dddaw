@@ -1,0 +1,42 @@
+body{
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   padding: 5px;
+   box-sizing: border-box;
+   justify-content: space-between;
+}
+.blok{
+height: 200px;
+width: 100%;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: blue;
+
+}
+
+.blok2{
+    height: 400px;
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: green;
+}
+
+.blok3{
+    height: 200px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: blueviolet;
+}
+.block3 > .bloczek3 {
+    
+    height: 100;
+    width: 40%;
+    align-content: center;
+    background-color: black;
+}
